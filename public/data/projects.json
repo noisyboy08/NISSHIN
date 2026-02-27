@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Cool Hand",
+    "category": "Illustration",
+    "image": "assets/hand-char.png",
+    "description": "The classic white glove — vintage cool, effortless style, and a hint of mystery on a golden coin."
+  },
+  {
+    "id": 2,
+    "title": "Burning News",
+    "category": "Character Design",
+    "image": "assets/sun-flame-char.png",
+    "description": "Our sun character staying informed through the flames — cool under pressure, always reading."
+  },
+  {
+    "id": 3,
+    "title": "Garden Friend",
+    "category": "Character Design",
+    "image": "assets/daisy-char.png",
+    "description": "Meet Daisy — the friendliest flower in the garden, always walking with a warm smile."
+  },
+  {
+    "id": 4,
+    "title": "World Tour",
+    "category": "Illustration",
+    "image": "assets/duo-char.png",
+    "description": "Globe and Sun travel the world together — two best friends on an endless adventure."
+  }
+]

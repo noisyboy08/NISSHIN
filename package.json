@@ -1,0 +1,16 @@
+{
+  "name": "nisshin-retro-website",
+  "version": "1.0.0",
+  "description": "Nisshin — Retro Pop Art single-page website with full interactivity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["retro", "pop-art", "website", "nisshin"],
+  "author": "Nisshin Creative Design",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

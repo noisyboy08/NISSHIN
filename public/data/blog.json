@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "The Art of Rubber Hose Animation",
+    "slug": "rubber-hose-animation",
+    "date": "2023-12-15",
+    "category": "Design",
+    "excerpt": "Exploring the iconic 1920s-1930s animation style that inspired our characters — from Fleischer Studios to modern interpretations.",
+    "content": "Rubber hose animation is a style of early animation characterized by its fluid, boneless limbs and exaggerated movements. Originating in the 1920s with studios like Fleischer and Disney, this style has seen a massive resurgence in contemporary design.\n\nAt Nisshin, we channel this energy into every character — from our cheerful Daisy to the adventurous Globe & Sun duo. The key principles include continuous flowing lines, exaggerated squash-and-stretch, and characters that feel alive with personality.\n\nThe appeal of rubber hose lies in its simplicity and expressiveness. With just a few curved lines, you can convey movement, emotion, and story. This is why it remains one of the most beloved animation styles nearly a century later.",
+    "image": "assets/duo-char.png",
+    "author": "Nisshin Team",
+    "tags": ["animation", "design", "retro"]
+  },
+  {
+    "id": 2,
+    "title": "Building a Retro Color Palette",
+    "slug": "retro-color-palette",
+    "date": "2023-11-28",
+    "category": "Tutorial",
+    "excerpt": "How we crafted the perfect purple-orange-yellow palette that defines the Nisshin visual identity.",
+    "content": "Color is everything in retro design. Our primary palette centers around Deep Violet (#5B4DC4) — a color that evokes the psychedelic 70s while feeling fresh and modern.\n\nWe pair it with Sunshine Yellow (#FFD23F) for warmth and optimism, Vibrant Orange (#FF7A18) for energy and excitement, and Teal (#19B5B5) for contrast and coolness.\n\nThe secret to making retro palettes work is high contrast. Every color should pop against its neighbors. We use thick black outlines to separate elements, ensuring nothing bleeds together even at a distance.\n\nTip: Always test your palette on both light and dark backgrounds. Our cream (#F6EFE6) acts as the perfect neutral to ground the vivid colors.",
+    "image": "assets/daisy-char.png",
+    "author": "Nisshin Team",
+    "tags": ["color", "tutorial", "branding"]
+  },
+  {
+    "id": 3,
+    "title": "Meet the Characters: Daisy",
+    "slug": "meet-daisy",
+    "date": "2023-11-10",
+    "category": "Characters",
+    "excerpt": "The story behind our beloved flower character — from initial sketch to final design.",
+    "content": "Daisy started as a simple doodle during a brainstorming session. We wanted a character that embodied optimism, growth, and the free-spirited nature of the Nisshin brand.\n\nHer design follows classic rubber hose principles: a round face with expressive eyes, simple but dynamic limbs, and bold orange shoes that ground her in the scene. The white petals create a natural frame around her face, making her instantly recognizable even at small sizes.\n\nDaisy's personality is curious and friendly. She's always exploring, always learning — much like our approach to design itself. Her speech bubble 'Free badges design' has become one of our most iconic visual elements.",
+    "image": "assets/daisy-char.png",
+    "author": "Nisshin Team",
+    "tags": ["characters", "design", "illustration"]
+  },
+  {
+    "id": 4,
+    "title": "Typography in Pop Art Design",
+    "slug": "typography-pop-art",
+    "date": "2023-10-22",
+    "category": "Design",
+    "excerpt": "Why bold, bubbly fonts are essential to the retro pop art aesthetic and how to use them effectively.",
+    "content": "Typography in pop art isn't just about readability — it's about impact. Every word should feel like it's shouting from a vintage poster.\n\nWe use layered text effects extensively: a white top layer for legibility, with orange, red, and teal layers stacked behind to create a 3D extrusion effect. Combined with thick black outlines, this creates text that literally pops off the page.\n\nOur font choices (Titan One, Peralta) were selected for their rounded, friendly forms that complement the rubber hose characters. The key rule: bigger is almost always better in pop art typography.\n\nFor the multilingual section, we demonstrate that these principles transcend language barriers — great typography speaks a universal visual language.",
+    "image": "assets/sun-flame-char.png",
+    "author": "Nisshin Team",
+    "tags": ["typography", "design", "tutorial"]
+  },
+  {
+    "id": 5,
+    "title": "Checkerboard Patterns: A Design Deep Dive",
+    "slug": "checkerboard-patterns",
+    "date": "2023-10-05",
+    "category": "Tutorial",
+    "excerpt": "How CSS perspective transforms create the illusion of 3D floors using nothing but repeating patterns.",
+    "content": "The checkerboard floor is one of the most iconic elements in retro illustration. It creates instant depth and spatial context for characters to inhabit.\n\nIn CSS, we achieve this with repeating-conic-gradient and perspective transforms. The key is the transform: perspective(600px) rotateX(55deg) — this tilts a flat pattern into a convincing 3D floor.\n\nWe use three color variants: pink/cream for the hero, orange/cream for 'Good News', and purple/cream for subtle backgrounds. Each creates a different mood while maintaining visual consistency.\n\nThe transform-origin: bottom center ensures the floor anchors at the bottom of the section, creating a natural horizon line where characters can stand.",
+    "image": "assets/hand-char.png",
+    "author": "Nisshin Team",
+    "tags": ["CSS", "tutorial", "patterns"]
+  },
+  {
+    "id": 6,
+    "title": "Summer Vibe: Seasonal Design Trends",
+    "slug": "summer-vibe-trends",
+    "date": "2023-09-18",
+    "category": "Trends",
+    "excerpt": "How seasonal themes influence our design choices and keep the Nisshin aesthetic fresh year-round.",
+    "content": "Design doesn't exist in a vacuum — it responds to seasons, moods, and cultural moments. Our 'Summer Vibe' section captures the warmth and energy of the season.\n\nThe combination of bold white text with heavy black drop shadows creates maximum contrast and readability. The daisy character adds organic warmth, while the checkerboard background provides geometric structure.\n\nSeasonal design tips: In summer, lean into warm oranges and yellows. Increase contrast. Use more white space and lighter backgrounds. Let your characters be more dynamic and active.\n\nThe key is maintaining your brand identity while adapting to the season's energy.",
+    "image": "assets/duo-char.png",
+    "author": "Nisshin Team",
+    "tags": ["trends", "seasonal", "design"]
+  }
+]

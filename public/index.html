@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Nisshin — Retro Pop Art Creative Design Studio. Bold characters, vibrant colors, and 1970s nostalgia.">
+  <meta name="theme-color" content="#5B4DC4">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Nisshin — Retro Pop Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik+Mono+One&family=Peralta&family=Titan+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-text">NISSHIN</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- 1. HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="logo"><a href="#hero"><img src="assets/logo.svg" alt="Nisshin logo"></a></div>
+    <nav class="nav-desktop">
+      <a href="#hero" class="pill white active" data-section="hero">Home</a>
+      <a href="#about" class="pill yellow" data-section="about">About</a>
+      <a href="#blog" class="pill orange" data-section="blog">Blog</a>
+      <a href="#contact" class="pill white" data-section="contact">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-inner">
+      <a href="#hero" class="mobile-link" data-section="hero">Home</a>
+      <a href="#about" class="mobile-link" data-section="about">About</a>
+      <a href="#gallery" class="mobile-link" data-section="gallery">Work</a>
+      <a href="#blog" class="mobile-link" data-section="blog">Blog</a>
+      <a href="#contact" class="mobile-link" data-section="contact">Contact</a>
+      <div class="mobile-menu-footer"><p>&copy; 2023 Nisshin Creative Design</p></div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- 2. HERO -->
+    <section class="hero" id="hero">
+      <img class="hero-bg-image" src="assets/hero-full.jpeg" alt="Nisshin Hero">
+      <div class="hero-overlay">
+        <a href="#about" class="scroll-hint" aria-label="Scroll down"><span class="scroll-arrow">&darr;</span></a>
+      </div>
+    </section>
+
+    <!-- 3. LIST SECTION -->
+    <section class="list-section" id="list">
+      <div class="list-left">
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+        <div class="repeat reveal-left">NISSHIN</div>
+      </div>
+      <div class="list-right">
+        <div class="list-right-top reveal">
+          <img class="duo-small" src="assets/duo-char.png" alt="Globe and sun duo">
+        </div>
+        <div class="meta-lines">
+          <div class="meta-row reveal"><span class="meta-label">TC-001 NCD</span><p>Nisshin Creative Design is a retro-futuristic brand project that blends 1970s pop art with modern illustration techniques.</p></div>
+          <div class="meta-row reveal"><span class="meta-label">HO.001</span><p>Featuring rubber hose animation characters, bold typography, and vivid color palettes designed for maximum visual impact.</p></div>
+          <div class="meta-row reveal"><span class="meta-label">&copy; 2023</span><p>Every element is crafted with attention to retro detail — from checkerboard patterns to bubbly display fonts and cartoon aesthetics.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ABOUT -->
+    <section class="about-section" id="about">
+      <div class="about-header reveal"><span class="tag-pill">About Us</span><span class="tag-pill">Est. 2023</span></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">We Make<br>Bold Things</h2>
+          <p class="about-desc">Nisshin Creative Design is a studio obsessed with retro pop art, rubber hose characters, and typography that screams from across the room. We believe design should be fun, fearless, and unforgettable.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num" data-target="50">0</span><span class="stat-suffix">+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num" data-target="30">0</span><span class="stat-suffix">+</span><span class="stat-label">Clients</span></div>
+            <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Awards</span></div>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <div class="about-card"><img src="assets/duo-char.png" alt="Our Characters"></div>
+        </div>
+      </div>
+      <div class="about-services reveal">
+        <h3 class="sub-title">What We Do</h3>
+        <div class="services-grid">
+          <div class="service-card"><div class="service-icon"><img src="assets/daisy-char.png" alt=""></div><h4>Brand Identity</h4><p>Logos, color systems, and visual languages that make brands unforgettable.</p></div>
+          <div class="service-card"><div class="service-icon"><img src="assets/sun-flame-char.png" alt=""></div><h4>Illustration</h4><p>Custom characters and illustrations in the rubber hose animation style.</p></div>
+          <div class="service-card"><div class="service-icon"><img src="assets/hand-char.png" alt=""></div><h4>Web Design</h4><p>Pixel-perfect websites that bring retro aesthetics to the modern web.</p></div>
+          <div class="service-card"><div class="service-icon"><img src="assets/duo-char.png" alt=""></div><h4>Motion Design</h4><p>Animated characters and kinetic typography that bring stories to life.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GOOD NEWS — Rebuilt with HTML/CSS -->
+    <section class="good-news" id="good-news">
+      <div class="gn-meta reveal"><span class="tag-pill">TC-SS/NSD — NO.001</span></div>
+      <div class="gn-text-bg">
+        <span class="gn-word">GOOD</span>
+        <span class="gn-word">NEWS</span>
+      </div>
+      <div class="gn-character reveal">
+        <img src="assets/sun-flame-char.png" alt="Sun reading newspaper in flames">
+      </div>
+      <div class="gn-clouds">
+        <div class="gn-cloud gn-cloud-l"><svg viewBox="0 0 120 60" fill="#fff"><ellipse cx="60" cy="40" rx="50" ry="20"/><ellipse cx="35" cy="30" rx="25" ry="20"/><ellipse cx="75" cy="28" rx="30" ry="22"/></svg></div>
+        <div class="gn-cloud gn-cloud-r"><svg viewBox="0 0 100 50" fill="#fff"><ellipse cx="50" cy="35" rx="42" ry="15"/><ellipse cx="30" cy="25" rx="20" ry="18"/><ellipse cx="65" cy="22" rx="25" ry="20"/></svg></div>
+      </div>
+      <div class="gn-floor"></div>
+    </section>
+
+    <!-- 6. FUNNY TIME -->
+    <section class="funny-time" id="funny-time">
+      <div class="funny-time-link-container reveal">
+        <a href="funny-time.html" class="funny-time-link">
+          <div class="funny-time-preview">
+            <img src="layout/Picsart_26-02-15_13-46-01-706.png" alt="FUNNY TIME" class="funny-time-preview-image">
+            <div class="funny-time-overlay">
+              <span class="funny-time-link-text">View FUNNY TIME</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 7. GALLERY -->
+    <section class="grid-gallery" id="gallery">
+      <div class="gallery-header reveal"><span class="tag-pill">Our Work</span><h2 class="section-title">Gallery</h2></div>
+      <div class="gallery-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Character Design">Characters</button>
+        <button class="filter-btn" data-filter="Illustration">Illustration</button>
+      </div>
+      <div class="grid" id="projects-grid"></div>
+    </section>
+
+    <!-- 8. SUMMER VIBE -->
+    <section class="summer-vibe" id="summer-vibe">
+      <div class="summer-meta-top"><span class="tag-pill">NISSHIN</span><span class="tag-pill">&copy; 2023 Nisshin</span></div>
+      <div class="summer-content">
+        <div class="summer-daisy reveal"><img src="assets/daisy-char.png" alt="Daisy character"></div>
+        <h2 class="summer-title reveal"><span>SUMMER</span><span>VIBE</span></h2>
+      </div>
+      <div class="summer-meta-bottom"><span class="tag-pill">TC-SS/NSD — NO.001</span></div>
+    </section>
+
+    <!-- 9. BLOG -->
+    <section class="blog-section" id="blog">
+      <div class="blog-header reveal"><span class="tag-pill">Latest Posts</span><h2 class="section-title">Blog</h2></div>
+      <div class="blog-grid" id="blog-grid"></div>
+    </section>
+
+    <!-- BLOG MODAL -->
+    <div class="modal-overlay" id="blog-modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+        <div class="modal-img" id="modal-img"></div>
+        <div class="modal-body">
+          <span class="modal-category" id="modal-category"></span>
+          <h2 class="modal-title" id="modal-title"></h2>
+          <p class="modal-date" id="modal-date"></p>
+          <div class="modal-text" id="modal-text"></div>
+          <div class="modal-tags" id="modal-tags"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 10. ENJOY LIFE -->
+    <section class="enjoy-life" id="enjoy-life">
+      <div class="enjoy-top">
+        <div class="enjoy-left"><div class="tag-dark">NISSHIN</div></div>
+        <div class="enjoy-right"><div class="tag-dark">TC-001 NCD</div><div class="tag-dark">&copy; 2023 Nisshin</div></div>
+      </div>
+      <div class="enjoy-content">
+        <div class="enjoy-hand reveal"><img src="assets/hand-char.png" alt="Hand character"></div>
+        <div class="enjoy-text reveal">
+          <span class="e-letter" style="color:var(--accent-teal)">E</span><span class="e-letter" style="color:#fff">N</span><span class="e-letter" style="color:var(--accent-orange)">J</span><span class="e-letter" style="color:var(--accent-yellow)">O</span><span class="e-letter" style="color:var(--accent-pink)">Y</span><br>
+          <span class="e-letter" style="color:var(--accent-teal)">L</span><span class="e-letter" style="color:#fff">I</span><span class="e-letter" style="color:var(--accent-orange)">F</span><span class="e-letter" style="color:#fff">E</span>
+        </div>
+      </div>
+      <div class="checker-floor floor-pink"></div>
+    </section>
+
+    <!-- 11. CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="contact-header reveal"><span class="tag-pill">Get in Touch</span><h2 class="section-title">Contact</h2></div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's Work<br>Together</h3>
+          <p>Have a project in mind? We'd love to hear about it. Drop us a line and let's create something bold.</p>
+          <div class="contact-details">
+            <div class="contact-item"><span class="contact-icon">&#9993;</span><span>hello@nisshin.design</span></div>
+            <div class="contact-item"><span class="contact-icon">&#9742;</span><span>+1 (555) 123-4567</span></div>
+            <div class="contact-item"><span class="contact-icon">&#9678;</span><span>Tokyo, Japan</span></div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Twitter">X</a>
+            <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+            <a href="#" class="social-btn" aria-label="Dribbble">Dr</a>
+            <a href="#" class="social-btn" aria-label="Behance">Be</a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" placeholder="John Doe" required><span class="form-error" id="name-error"></span></div>
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="john@example.com" required><span class="form-error" id="email-error"></span></div>
+            <div class="form-group"><label for="subject">Subject</label><select id="subject" name="subject"><option value="general">General Inquiry</option><option value="project">New Project</option><option value="collaboration">Collaboration</option><option value="other">Other</option></select></div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea><span class="form-error" id="message-error"></span></div>
+            <button type="submit" class="submit-btn" id="submit-btn"><span class="btn-text">Send Message</span><span class="btn-loading" style="display:none">Sending...</span><span class="btn-success" style="display:none">Sent! &#10003;</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. MULTILINGUAL -->
+    <section class="multilingual" id="multilingual">
+      <div class="multi-orbits"><div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div></div>
+      <div class="sparkle sparkle-m1">&#10022;</div><div class="sparkle sparkle-m2">&#10023;</div><div class="sparkle sparkle-m3">&#10022;</div><div class="sparkle sparkle-m4">&#10023;</div>
+      <div class="multi-text reveal">
+        <div class="multi-filled">M&Uuml;LTIL&#278;&Ntilde;GU&Atilde;L</div>
+        <div class="multi-outline">M&uuml;ltil&#279;&ntilde;gu&atilde;l</div>
+      </div>
+      <div class="multi-footer"><span>NISSHIN</span><span>&copy; 2023 Nisshin. All rights reserved.</span></div>
+    </section>
+
+    <!-- 13. NEWSLETTER -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="newsletter-inner reveal">
+        <h2>Stay in the Loop</h2>
+        <p>Get the latest Nisshin news, design tips, and character drops straight to your inbox.</p>
+        <form class="newsletter-form" id="newsletter-form"><input type="email" id="nl-email" placeholder="your@email.com" required><button type="submit" class="nl-btn" id="nl-btn">Subscribe</button></form>
+        <p class="nl-status" id="nl-status"></p>
+      </div>
+    </section>
+
+    <!-- 14. FOOTER -->
+    <footer class="site-footer" id="footer">
+      <div class="footer-tags-top"><span class="tag-pill">TC-SS/NSD — NO.001</span><span class="tag-pill">&copy; 2023 Nisshin</span></div>
+      <div class="footer-content">
+        <div class="footer-hand reveal"><img src="assets/hand-char.png" alt="Hand character"></div>
+        <h2 class="footer-title reveal"><span>THANK</span><span>YOU</span></h2>
+        <div class="footer-daisy reveal"><img src="assets/daisy-char.png" alt="Daisy character"></div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col"><h4>Navigate</h4><a href="#hero">Home</a><a href="#about">About</a><a href="#gallery">Work</a><a href="#blog">Blog</a><a href="#contact">Contact</a></div>
+        <div class="footer-col"><h4>Social</h4><a href="#">Twitter / X</a><a href="#">Instagram</a><a href="#">Dribbble</a><a href="#">Behance</a></div>
+        <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookie Policy</a></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; 2023 Nisshin Creative Design. All rights reserved.</span></div>
+    </footer>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">&#8593;</button>
+  <script src="app.js"></script>
+</body>
+</html>
